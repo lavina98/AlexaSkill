@@ -1,0 +1,133 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open exercise mother",
+            "count till 10 5 times",
+            "help"
+          ],
+          "keywords": [],
+          "name": "TestSkillLg",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-CA": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open exercise mother",
+            "count till 10 5 times",
+            "help"
+          ],
+          "keywords": [],
+          "name": "TestSkillLg",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open exercise mother",
+            "count till 10 5 times",
+            "help"
+          ],
+          "keywords": [],
+          "name": "TestSkillLg",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open exercise mother",
+            "count till 10 5 times",
+            "help"
+          ],
+          "keywords": [],
+          "name": "TestSkillLg",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open exercise mother",
+            "count till 10 5 times",
+            "help"
+          ],
+          "keywords": [],
+          "name": "TestSkillLg",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "HEALTH_INFORMATION_AND_HELP",
+      "distributionMode": "PUBLIC",
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "en-US"
+          }
+        ]
+      },
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:930953889776:function:3cdb2e80-46a3-4972-8ee4-9f26b6afcd70:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:930953889776:function:3cdb2e80-46a3-4972-8ee4-9f26b6afcd70:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:930953889776:function:3cdb2e80-46a3-4972-8ee4-9f26b6afcd70:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:930953889776:function:3cdb2e80-46a3-4972-8ee4-9f26b6afcd70:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {},
+        "en-CA": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
